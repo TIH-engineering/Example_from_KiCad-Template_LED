@@ -2,6 +2,7 @@ name: KiCad Release
 
 env:
   THUMBNAIL_WIDTH: 200
+  KICAD_BASE_FILENAME: "Example_from_KiCad-Template_LED"
 
 on:
   release:
@@ -10,7 +11,6 @@ on:
 jobs:
   export-kicad:
     env:
-      KICAD_BASE_FILENAME: "Example_from_KiCad-Template_LED"
       KICAD_BASE_FOLDER: "./pcb"
       KICAD_SCHEMATIC_FILE_EXTENSION: "kicad_sch"
       KICAD_PCB_FILE_EXTENSION: "kicad_pcb"
@@ -88,7 +88,7 @@ jobs:
             ./artifact/kicad/drill/drill.pdf \
             ./artifact/kicad/bom/bom.xlsx \
             ./artifact/kicad/ibom/ibom.html \
-            ./artifact/kicad/step/Template-3D.step#pcb.step \
+            ./artifact/kicad/step/${{ env.KICAD_BASE_FILENAME }}-3D.step#pcb.step \
             ./artifact/kicad.tar.gz \
             ./artifact/kicad.zip \
             ./artifact/kicad/blender/top.kicad.png \
