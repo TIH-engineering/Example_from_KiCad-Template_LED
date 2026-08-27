@@ -1,25 +1,21 @@
-# [PROJECT TITLE]
+# Example_from_KiCad-Template_LED
 
-[![release](https://img.shields.io/github/v/release/[GITHUB_USER]/[REPOSITORY]?label=release)](https://github.com/[GITHUB_USER]/[REPOSITORY]/releases)
-[![Build](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml/badge.svg)](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml)
+[![release](https://img.shields.io/github/v/release/TIH-engineering/Example_from_KiCad-Template_LED?label=release)](https://github.com/TIH-engineering/Example_from_KiCad-Template_LED/releases)
+[![Build](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml/badge.svg)](https://github.com/TIH-engineering/Example_from_KiCad-Template_LED/actions/workflows/build.yml)
 ![Hardware](https://img.shields.io/badge/Hardware-KiCad-blue)
 ![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-lightgrey)
 
 ## 🔌 Leiterplattenbeschreibung
 
-Die Leiterplatte **[PROJECT TITLE]** wurde für [kurze Beschreibung des Einsatzzwecks] entwickelt.
+Die Leiterplatte **Example_from_KiCad-Template_LED** wurde als Beispiel zur Nutzung des KiCad-Templates erstellt.
 
-[Hier 2–4 Sätze zur Funktion der Leiterplatte, zum Aufbau und zum vorgesehenen Einsatz.]
+Das Beispiel dient als Vorlage, wie das Template verwendet werden kann und wie dann ein Beispielprojekt ausschauen kann.
 
 ### Funktionen
 
-- [Funktion / Schaltung 1]
-- [Funktion / Schaltung 2]
-- [Funktion / Schaltung 3]
+- einfache LED-Schaltung - dient nur als Beispiel
 
-[Optionaler Absatz zu besonderen Eigenschaften, Messpunkten, austauschbaren Bauteilen, Schnittstellen usw.]
-
-> **Einsatzgebiet:** [Kurze Beschreibung des vorgesehenen Einsatzes]
+> **Einsatzgebiet:** Beispielprojekt
 
 ---
 
@@ -61,10 +57,10 @@ Die Dateien werden automatisch durch den Release-Workflow erzeugt.
 
 | Eigenschaft | Wert |
 |---|---|
-| **Projekt** | [PROJECT TITLE] |
+| **Projekt** | Example_from_KiCad-Template_LED |
 | **Software** | KiCad 10 |
-| **Repository** | [GITHUB_USER]/[REPOSITORY] |
-| **Autor** | [NAME] |
+| **Repository** | TIH-engineering/Example_from_KiCad-Template_LED |
+| **Autor** | TIH |
 | **Lizenz** | CC BY-NC-SA 4.0 |
 
 ---
