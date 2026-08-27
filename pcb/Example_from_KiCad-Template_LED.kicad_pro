@@ -582,7 +582,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Template.kicad_pro",
+    "filename": "Example_from_KiCad-Template_LED.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -759,29 +759,29 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Template.kicad_sch",
-        "name": "Template",
+        "filename": "Example_from_KiCad-Template_LED.kicad_sch",
+        "name": "Example_from_KiCad-Template_LED",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R1,BT1,D1",
     "variants": []
   },
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Template"
+      "Example_from_KiCad-Template_LED"
     ]
   ],
   "text_variables": {
     "acronym": "",
     "company": "HTL-Rankweil",
-    "creator": "[NAME]",
-    "date": "",
+    "creator": "TIH",
+    "date": "2026-08-27",
     "license": "CC BY-NC-SA 4.0",
-    "link": "[REPOSITORY URL]",
+    "link": "https://github.com/TIH-engineering/Example_from_KiCad-Template_LED.git",
     "revision": "0.1",
-    "title": "[PROJECT TITLE]"
+    "title": "LED-Circuit from Template"
   },
   "tuning_profiles": {
     "meta": {
